@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entities
+ majorVersion="0"
+ minorVersion="0"
+ universal="password">
+    <DataShapes>
+        <DataShape
+         baseDataShape=""
+         description=""
+         documentationContent=""
+         homeMashup=""
+         name="BookAuthor"
+         projectName="BooksWebShop"
+         tags="">
+            <avatar></avatar>
+            <DesignTimePermissions>
+                <Create></Create>
+                <Read></Read>
+                <Update></Update>
+                <Delete></Delete>
+                <Metadata></Metadata>
+            </DesignTimePermissions>
+            <RunTimePermissions></RunTimePermissions>
+            <VisibilityPermissions>
+                <Visibility></Visibility>
+            </VisibilityPermissions>
+            <ConfigurationTableDefinitions></ConfigurationTableDefinitions>
+            <ConfigurationTables></ConfigurationTables>
+            <FieldDefinitions>
+                <FieldDefinition
+                 aspect.isPrimaryKey="true"
+                 baseType="INTEGER"
+                 description=""
+                 name="AuthorID"
+                 ordinal="1"></FieldDefinition>
+                <FieldDefinition
+                 aspect.isPrimaryKey="true"
+                 baseType="INTEGER"
+                 description=""
+                 name="BookID"
+                 ordinal="2"></FieldDefinition>
+            </FieldDefinitions>
+        </DataShape>
+    </DataShapes>
+</Entities>
